@@ -1,0 +1,12 @@
+<h1>Hello from Bee Index 🐝</h1>
+
+<ul>
+  <% @bees.each do |bee| %>
+    <li><%= bee.name %></li>
+    <li><%= bee.description %></li>
+    <li><%= bee.price %></li>
+    <li><%= bee.image_url %></li>
+
+
+  <% end %>
+</ul>
